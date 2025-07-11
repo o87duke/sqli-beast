@@ -1,0 +1,10 @@
+username
+password
+email
+token
+sessionid
+created_at
+updated_at
+id
+role
+permission
