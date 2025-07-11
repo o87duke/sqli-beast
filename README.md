@@ -26,12 +26,15 @@ Usage Examples:
 
 Basic:
 python sqli_beast.py -u http://example.com/login.php
+
 -------------------------------------------------------------------------------------------------------
 With proxy file and all report formats:
 python sqli_beast.py -u http://example.com/login.php -pfp proxies.txt --output-format all
+
 -------------------------------------------------------------------------------------------------------
 Bruteforce tables and columns:
 python sqli_beast.py -u http://example.com/login.php --db-detect -tw wordlists/tables.txt -cw wordlists/columns.txt
+
 -------------------------------------------------------------------------------------------------------
 | Flag              | Description                         |
 | ----------------- | ----------------------------------- |
